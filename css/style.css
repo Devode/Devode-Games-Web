@@ -6,6 +6,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
@@ -44,6 +47,61 @@ nav {
     align-items: center;
 }
 
+.glass-header {
+    /* 1. 定位和尺寸 */
+    /*position: fixed;*/
+    /* 或者 sticky，根据需求 */
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    /* 2. 视觉样式 */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* 半透明白色背景 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* 底部细边框增强质感 */
+
+    /* 3. 毛玻璃效果核心 */
+    backdrop-filter: blur(12px);
+    /* 模糊背景，数值越大越模糊 */
+    -webkit-backdrop-filter: blur(12px);
+    /* Safari 支持 */
+
+    /* 4. 其他美化 */
+    /*color: #333;*/
+    /* 文字颜色，根据你的背景调整以确保可读性 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* 轻微阴影增加层次感 */
+}
+
+.glass-footer {
+    /* 1. 定位和尺寸 */
+    /*position: fixed;*/
+    /* 或者 sticky，根据需求 */
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    /* 2. 视觉样式 */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 半透明白色背景 */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* 底部细边框增强质感 */
+
+    /* 3. 毛玻璃效果核心 */
+    backdrop-filter: blur(24px);
+    /* 模糊背景，数值越大越模糊 */
+    -webkit-backdrop-filter: blur(24px);
+    /* Safari 支持 */
+
+    /* 4. 其他美化 */
+    /*color: #333;*/
+    /* 文字颜色，根据你的背景调整以确保可读性 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* 轻微阴影增加层次感 */
+}
 
 .logo {
     font-size: 1.5rem;
@@ -191,6 +249,7 @@ footer {
     color: white;
     padding: 2rem 0;
     text-align: center;
+    margin-top: auto;
 }
 
 .footer-content {
