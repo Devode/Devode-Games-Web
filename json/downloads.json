@@ -1,17 +1,11 @@
 {
     "BlockyParkour": {
         "name": "方块跑酷",
-        "platforms": [
-            {
-                "name": "Android",
+        "platforms": {
+            "Android": {
                 "bits": "arm64",
-                "url": "https://gitee.com/devode/blocky-parkour-release/releases/download/v2.0.0-dev/%E6%96%B9%E5%9D%97%E8%B7%91%E9%85%B72D_v2.0.0-dev_android_arm64.apk"
-            },
-            {
-                "name": "Windows",
-                "bits": "x64",
-                "url": "https://gitee.com/devode/blocky-parkour-release/releases/download/v2.0.0-dev/%E6%96%B9%E5%9D%97%E8%B7%91%E9%85%B72D_v2.0.0-dev_win_x64.exe"
+                "url": "https://gitee.com/devode/blocky-parkour-release/releases/download/v1.0.4-beta-2/%E6%96%B9%E5%9D%97%E8%B7%91%E9%85%B72D_1.0.4-beta-2.apk"
             }
-        ]
+        }
     }
 }

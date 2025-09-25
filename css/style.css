@@ -57,8 +57,8 @@ nav {
     box-sizing: border-box;
 
     /* 2. 视觉样式 */
-    background-color: rgba(255, 255, 255, 0.1);
-    /* 半透明白色背景 */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 半透明黑色背景 */
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     /* 底部细边框增强质感 */
 
@@ -86,7 +86,7 @@ nav {
 
     /* 2. 视觉样式 */
     background-color: rgba(0, 0, 0, 0.1);
-    /* 半透明白色背景 */
+    /* 半透明黑色背景 */
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     /* 底部细边框增强质感 */
 
