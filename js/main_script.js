@@ -9,7 +9,7 @@ let data = {};
 
 async function loadJSON() {
   try {
-    const response = await fetch('../json/releases.json');
+    const response = await fetch('./json/releases.json');
     if (!response.ok) {
       throw new Error('网络响应不正常');
     }
