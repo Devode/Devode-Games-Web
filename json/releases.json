@@ -1,0 +1,12 @@
+[
+    {
+        "name": "方块跑酷",
+        "version": "1.0.4-beta-2",
+        "icon": "https://gitee.com/devode/blocky-parkour-release/raw/master/icon.png",
+        "background_image": "./img/方块跑酷.jpg",
+        "platforms": [
+            "Android"
+        ],
+        "hashkey": "BlockyParkour"
+    }
+]
